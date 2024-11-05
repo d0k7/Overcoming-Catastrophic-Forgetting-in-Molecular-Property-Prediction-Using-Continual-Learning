@@ -1,0 +1,25 @@
+==========================================
+SLURM_CLUSTER_NAME = param-shivay
+SLURM_JOB_ACCOUNT = comp_sci_engg
+SLURM_JOB_ID = 980722
+SLURM_JOB_NAME = xai_1
+SLURM_JOB_NODELIST = gpu[004-005]
+SLURM_JOB_USER = sakshi.rs.cse21.itbhu
+SLURM_JOB_UID = 6147
+SLURM_JOB_PARTITION = gpu
+SLURM_TASK_PID = 7447
+SLURM_SUBMIT_DIR = /home/sakshi.rs.cse21.itbhu
+SLURM_CPUS_ON_NODE = 10
+SLURM_NTASKS = 20
+SLURM_TASK_PID = 7447
+==========================================
+Error downloading the tokenizer: Can't load tokenizer for 'bert-base-uncased'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'bert-base-uncased' is the correct path to a directory containing all relevant files for a BertTokenizer tokenizer.
+Retrying in 5 seconds...
+Error downloading the tokenizer: Can't load tokenizer for 'bert-base-uncased'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'bert-base-uncased' is the correct path to a directory containing all relevant files for a BertTokenizer tokenizer.
+Retrying in 5 seconds...
+Error downloading the tokenizer: Can't load tokenizer for 'bert-base-uncased'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'bert-base-uncased' is the correct path to a directory containing all relevant files for a BertTokenizer tokenizer.
+Retrying in 5 seconds...
+Error downloading the tokenizer: Can't load tokenizer for 'bert-base-uncased'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'bert-base-uncased' is the correct path to a directory containing all relevant files for a BertTokenizer tokenizer.
+Retrying in 5 seconds...
+Error downloading the tokenizer: Can't load tokenizer for 'bert-base-uncased'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'bert-base-uncased' is the correct path to a directory containing all relevant files for a BertTokenizer tokenizer.
+Tokenizer could not be initialized after several attempts. Exiting.

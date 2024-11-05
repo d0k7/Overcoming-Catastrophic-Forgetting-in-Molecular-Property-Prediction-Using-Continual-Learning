@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "xai1.py", line 24, in download_tokenizer_with_retries
+    tokenizer = BertTokenizer.from_pretrained(pretrained_model_name)
+  File "/home/sakshi.rs.cse21.itbhu/.conda/envs/pth20/lib/python3.8/site-packages/transformers/tokenization_utils_base.py", line 2094, in from_pretrained
+    raise EnvironmentError(
+OSError: Can't load tokenizer for 'bert-base-uncased'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'bert-base-uncased' is the correct path to a directory containing all relevant files for a BertTokenizer tokenizer.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "xai1.py", line 35, in <module>
+    tokenizer = download_tokenizer_with_retries('bert-base-uncased')
+  File "xai1.py", line 32, in download_tokenizer_with_retries
+    raise ValueError("Tokenizer could not be initialized after several attempts. Exiting.")
+ValueError: Tokenizer could not be initialized after several attempts. Exiting.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "xai1.py", line 38, in <module>
+    raise ValueError(f"Failed to load the tokenizer: {e}")
+ValueError: Failed to load the tokenizer: Tokenizer could not be initialized after several attempts. Exiting.
